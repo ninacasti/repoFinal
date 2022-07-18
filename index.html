@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="galeria, arte, pintura, escultura, artistas, montevideo, uruguay">
+    <title>Galer&iacute;a - Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid justify-content-center">
+            <div class="navbar" id="navbarNav">
+                <ul class="navbar-nav listaMenu">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="artistas.html">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exposiciones.html">Exposiciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="fade-in">
+        <section class="heroGaleria">
+            <h1 class="scale-up-center">Galer&iacute;a de Montevideo</h1>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div id="crrIndex" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div>
+                        <div class="carousel-item active">
+                            <img src="./images/galeria11.jfif" class="w-100 h-600 imgcrr"
+                                alt="Sala principal de la galer&iacute;a">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/galeria22.png" class="w-100 h-600 imgcrr"
+                                alt="Exposici&oacute;n abstracta">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/galeria33.jpg" class="w-100 h-600 imgcrr"
+                                alt="Sala de fotograf&iacute;a">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#crrIndex" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#crrIndex" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <section id="sectionInscripciones">
+            <div class="card" style="width: 25rem;">
+                <img src="./images/fotoCharlas.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2>Charlas</h2>
+                    <p class="card-text">Inscribite a nuestras charlas mensuales gratuitas sobre artistas, movimientos y novedades en el mundo
+                    del arte impartidas por la profesora Daniela Mantero el último jueves de cada mes.</p>
+                    <div class="col-md-12 text-center">
+                        <button type="button" class="btn btn-outline-light">Inscribirse</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 25rem;">
+                <img src="./images/fotoCursos.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2>Cursos</h2>
+                    <p class="card-text">Consultanos sobre nuestros cursos de pintura y escultura de la mano de conocidos artistas del país.
+                    Ofrecemos espacio de trabajo, materiales y también material teórico.</p>
+                    <div class="col-md-12 text-center">
+                        <button type="button" class="btn btn-outline-light">Consultar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sectionNews" class="fade-in">
+            <section id="sectionContacto" class="fade-in">
+                <h2>Suscribite a nuestro newsletter</h2>
+                <p>Enterate de todas nuestras novedades por correo.</p>
+                <div class="mb-3">
+                    <label for="userName" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="userName">
+                </div>
+                <div class="mb-3">
+                    <label for="userMail" class="form-label">Correo:</label>
+                    <input type="email" class="form-control" id="userMail">
+                </div>
+                <button type="button" class="btn btn-outline-light">Enviar</button>
+            </section>
+        </section>
+    </section>
+
+    <section id="redesSociales">
+        <h3>Seguinos en nuestras redes sociales</h3>
+        <div>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./images/iconInstagram.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="./images/iconYoutube.png" alt="YouTube"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© Galer&iacute;a de Montevideo, 2022. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

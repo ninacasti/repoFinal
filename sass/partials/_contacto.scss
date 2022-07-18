@@ -1,0 +1,29 @@
+/* CONTACTO */
+
+#sectionContacto {
+    height: 600px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+}
+
+    #sectionContacto article {
+        padding: 30px;
+        text-align: center;
+    }
+
+    #sectionContacto h2 {
+        margin: 1% 0;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    #sectionContacto h2, label {
+        color: white;
+    }
+
+    #sectionContacto div {
+        padding: 20px;
+    }

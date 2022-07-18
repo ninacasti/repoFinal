@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  background-color: black;
+}
+
+.btn-outline-light {
+  border: 1px solid #f8c25e;
+  margin: 0 auto;
+}
+
+/* INDEX */
+.titulo {
+  font-size: 100px;
+  font-style: italic;
+  font-weight: 200;
+  text-align: center;
+  color: #000000;
+}
+
+.listaMenu {
+  padding: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.listaMenu li {
+  padding: 0 30px;
+  background-color: transparent;
+  display: inline;
+}
+
+.listaMenu a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: transparent;
+}
+
+.listaMenu a:hover {
+  color: #f8c25e;
+}
+
+.heroGaleria {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(https://i0.wp.com/www.periodismo.com/wp-content/subid/cover2-2400x1600.jpg?fit=2400%2C1600&ssl=1);
+  background-position: center;
+  background-size: cover;
+}
+
+.heroGaleria h1 {
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 200;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.imgcrr {
+  height: 600px;
+}
+
+.container {
+  padding: 40px 150px;
+}
+
+#sectionInscripciones {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  justify-items: center;
+}
+
+#sectionInscripciones h2 {
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#sectionNews {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#sectionNews h2 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  background-color: black;
+}
+
+#sectionNews p {
+  margin-bottom: 5px;
+  color: white;
+  text-align: center;
+}
+
+#sectionNews div,
+#sectionNews label {
+  color: white;
+}
+
+#sectionNews input {
+  background-color: white;
+}
+
+#redesSociales h3 {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: large;
+  color: white;
+}
+
+#redesSociales div {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* ARTISTAS */
+#seccionArtistas section {
+  padding: 15px;
+  margin-left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.artistasTexto {
+  width: 300px;
+  padding-right: 100px;
+}
+
+.artistasCuadros {
+  padding-left: 100px;
+}
+
+.btn-primary {
+  background-color: black;
+  border: 1px solid white;
+}
+
+.btnNombreArtista:hover, .btnNombreArtista:focus {
+  color: #f8c25e;
+  background-color: black;
+  border: 1px solid #f8c25e;
+}
+
+.btnNombreArtista:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.card-body {
+  background-color: black;
+  color: white;
+}
+
+.crrArtistas {
+  width: 500px;
+}
+
+.imgcrrArtistas {
+  width: 400px;
+  height: 300px;
+}
+
+/* EXPOSICIONES */
+#sectionExposContainer {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.table {
+  background-color: #f8c25e;
+  text-align: center;
+  border: none;
+}
+
+#sectionExpos article {
+  padding: 15px;
+}
+
+#sectionExpos p {
+  padding-top: 15px;
+}
+
+#sectionExpos h2, p {
+  color: white;
+}
+
+/* NOSOTROS */
+#sectionNosotros {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#sectionNosotros article {
+  padding: 25px;
+}
+
+#sectionNosotros h2, p {
+  color: white;
+  padding-top: 15px;
+  line-height: 30px;
+}
+
+#staffLista {
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+#staffLista li {
+  color: white;
+  list-style-type: none;
+  line-height: 30px;
+}
+
+/* CONTACTO */
+#sectionContacto {
+  height: 600px;
+  max-width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-self: center;
+}
+
+#sectionContacto article {
+  padding: 30px;
+  text-align: center;
+}
+
+#sectionContacto h2 {
+  margin: 1% 0;
+  padding: 15px 0;
+  text-align: center;
+}
+
+#sectionContacto h2, label {
+  color: white;
+}
+
+#sectionContacto div {
+  padding: 20px;
+}
+
+/* FOOTER */
+footer {
+  height: 100px;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+footer p {
+  width: 100%;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+/* ANIMACIONES */
+.fade-in {
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* TITULO INICIO */
+.scale-up-center {
+  -webkit-animation: scale-up-center 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-center 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* MEDIA */
+@media screen and (max-width: 480px) {
+  .container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #sectionInscripciones {
+    margin: 5% 0;
+    background-image: url(https://www.viajarwashington.com/img/galeria-arte-washington.jpg);
+    background-position: center;
+    background-size: cover;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .listaMenu a {
+    color: #f8c25e;
+  }
+  footer p {
+    color: #f8c25e;
+  }
+}
+/*# sourceMappingURL=main.css.map */

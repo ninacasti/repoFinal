@@ -1,0 +1,26 @@
+/* EXPOSICIONES */
+
+#sectionExposContainer {
+    max-width: 1000px;
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+}
+
+.table {
+    background-color: $naranja;
+    text-align: center;
+    border: none;
+}
+
+#sectionExpos article {
+    padding: 15px;
+}
+
+    #sectionExpos p {
+        padding-top: 15px;
+    }
+
+    #sectionExpos h2, p {
+        color: white;
+    }

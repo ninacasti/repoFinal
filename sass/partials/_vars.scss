@@ -1,0 +1,7 @@
+$naranja: rgb(248, 194, 94);
+
+@mixin btnNombreArtista {
+    color: rgb(248, 194, 94);
+    background-color: black;
+    border: 1px solid $naranja;
+}

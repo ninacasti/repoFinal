@@ -1,0 +1,27 @@
+/* MEDIA */
+
+@media screen and (max-width: 480px) {
+    .container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #sectionInscripciones {
+        margin: 5% 0;
+        background-image: url(https://www.viajarwashington.com/img/galeria-arte-washington.jpg);
+        background-position: center;
+        background-size: cover;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .listaMenu a {
+        color: rgb(248, 194, 94);
+    }
+
+    footer p {
+        color: rgb(248, 194, 94);
+    }
+}

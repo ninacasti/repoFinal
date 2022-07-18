@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    display: grid;
+    background-color: black;
+}
+
+.btn-outline-light {
+    border: 1px solid $naranja;
+    margin: 0 auto;
+}
